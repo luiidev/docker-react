@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import Testimony from './components/Testimony'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='main-container'>
+        <h1>Esto es lo que dicen nuestros alumnos sobre freeCodeCamp</h1>
+        <Testimony 
+          name="Luis Vasquez"
+          country="Perú"
+          job="Ingeniero de Sistemas"
+          company="Google"
+          testimony="Siempre he tenido problemas para aprender JavaScript.He tomado muchos cursos, pero el curso de freeCodeCamp fue el que se quedó.Estudiar JavaScript,así como estructuras de datosyalgoritmos en freeCodeCamp me dio las habilidadesyla confianza que necesitaba para conseguir el trabajo de mis sueños como ingeniero de software en Spotify." />
+        <Testimony 
+          name="Luis Vasquez"
+          country="Perú"
+          job="Ingeniero de Sistemas"
+          company="Google"
+          testimony="Siempre he tenido problemas para aprender JavaScript.He tomado muchos cursos, pero el curso de freeCodeCamp fue el que se quedó.Estudiar JavaScript,así como estructuras de datosyalgoritmos en freeCodeCamp me dio las habilidadesyla confianza que necesitaba para conseguir el trabajo de mis sueños como ingeniero de software en Spotify." />
+        <Testimony 
+          name="Luis Vasquez"
+          country="Perú"
+          job="Ingeniero de Sistemas"
+          company="Google"
+          testimony="Siempre he tenido problemas para aprender JavaScript.He tomado muchos cursos, pero el curso de freeCodeCamp fue el que se quedó.Estudiar JavaScript,así como estructuras de datosyalgoritmos en freeCodeCamp me dio las habilidadesyla confianza que necesitaba para conseguir el trabajo de mis sueños como ingeniero de software en Spotify." />
+      </div>
     </div>
   );
 }
