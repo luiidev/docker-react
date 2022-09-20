@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className='main-container'>
-        <h1>Esto es lo que dicen nuestros alumnos sobre freeCodeCamp</h1>
+        <h1>Esto es lo que dicen nuestros alumnos sobre bizflow</h1>
         <Testimony 
           name="Luis Vasquez"
           country="Perú"
